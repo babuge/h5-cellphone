@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>分类</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/order.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+<header class="hot-header">
+    <div class="w-3"><span class="back-left">&lt;<span class="back-tit">返回</span></span></div>
+    <div class="w-6 header-tit">万家乐新零售</div><div class="w-3"><span class="muan-right">...</span></div>
+</header>
+<form action="#" methed="pass">
+<!-- 送货方式 -->
+<section class="tranStyle hasheader" id="tranId">
+	<a href="#" class="tranA active">上门自提</a>
+	<a href="#" class="tranA">送货上门</a>
+	<a href="#" class="tranA">快&nbsp;递</a>
+</section>
+<!-- 自提点 -->
+<div class="getBySelf">
+    <ul class="get_bar">
+        <li class="first">自提地点：北京全聚德(前门店)</li>
+        <li class="end">北京市东城区前门大街30号</li>
+    </ul>
+</div>
+<!-- 个人收货 -->
+<div class="userAddress">
+    <ul class="userInfo_Btn"></ul>
+    <ul class="userInfo_bar">
+        <li class="first">收货人信息：张一凡<span class="rt">13219663003</span></li>
+        <li class="end">四川省绵阳市涪城区高新街道古井社区</li>
+    </ul>
+</div>
+<!-- goodsInfo -->
+<div class="goodsBox">
+    <ul class="goods_ul">
+        <li class="order_goods">
+            <div class="w-4"><img src="images/order_09.png" alt="" class="order_gimg"/></div>
+            <div class="w-4">
+                <div class="goodsname">烤鸭情侣套餐</div>
+                <div class="goodspric">￥99.00</div>
+            </div>
+            <div class="w-4 order_bar">
+                <span class="order_bodr ">
+                <input class="order_inp1" id="min" name="" type="button" value="-" />  
+                <input class="order_inp2" id="text_box" name="goodsNum" type="text" value="1"/>  
+                <input class="order_inp3" id="add" name="" type="button" value="+" /> 
+                </span>
+            </div>
+        </li>
+        <li class="order_message">给卖家留言：<input type="text" name="" placeholder="请输入您想对卖家说的话"></li>
+    </ul>
+</div>
+<!-- 运费 合计 -->
+<ul class="totalAll">
+    <li class="frist">运费<span class="rt free">免运费</span></li>
+    <li class="end">共1件商品<span class="rt ">合计：<span class="pric">￥99.00</span></span></li>
+</ul>
+<!-- 会员折扣 -->
+<ul class="order_vip">
+    <li class="w-4"><a href="#" class="order_lev active">普通会员 9折</a></li>
+    <li class="w-4"><a href="#" class="order_lev">铜牌会员 8折</a></li>
+    <li class="w-4"><a href="#" class="order_lev">银牌会员 7折</a></li>
+    <li class="w-4"><a href="#" class="order_lev">金牌会员 6折</a></li>
+    <li class="w-4"><a href="#" class="order_lev">钻石会员 5折</a></li>
+</ul>
+<!-- 订购 -->
+<ul class="dingGou">
+    <li>需付: <span >￥99.00</span><input type="submit" value="立即订购" /></li>
+</ul>
+</form>
+</body>
+</html>
